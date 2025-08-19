@@ -53,7 +53,7 @@ export default function HomePage() {
           </h1>
           <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
             {
-              "Connect industrial systems. Stream telemetry. Ask questions in plain English. Share insights anywhere — no pipelines, no waiting."
+              "Connect industrial systems. Stream telemetry. Ask questions in plain English. Share insights anywhere — no pipelines, no delay."
             }
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -98,9 +98,7 @@ export default function HomePage() {
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Connect Your Data. Ask Anything. Share Anywhere.</h2>
           <p className="text-lg text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Open Industrial connects your existing industrial systems and lets engineers ask real questions about plant
-            data. It ingests live telemetry from SCADA, DCS, MES, historians, and LIMS — making it instantly queryable
-            through natural language, APIs, and dashboards.
+            Open Industrial ingests live telemetry from DCS, SCADA, MES, historians, and lab systems — making it instantly queryable through natural language, APIs, and dashboards.
           </p>
         </div>
       </section>
@@ -116,7 +114,7 @@ export default function HomePage() {
                   <Zap className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">1. Connect Your Data</h3>
-                <p className="text-slate-300 mb-4">Stream live telemetry via OPC UA, MQTT, SQL, or CSV.</p>
+                <p className="text-slate-300 mb-4">Ingest and stream telemetry via OPC UA, MQTT, HTTP, SQL, or CSV.</p>
                 <div className="text-sm text-slate-400">
                   <br />
                 </div>
@@ -130,8 +128,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">2. Ask Azi</h3>
                 <p className="text-slate-300 mb-4">
-                  Query your plant's data in plain English. Azi translates your intent into KQL and instantly returns
-                  explainable, actionable results.
+                  Query your plant's data in plain English. Azi translates your intent into KQL and returns explainable, actionable results.
                 </p>
                 <div className="text-sm text-slate-400">
                   <br />
@@ -146,7 +143,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">3. Share & Integrate</h3>
                 <p className="text-slate-300 mb-4">
-                  Save any query as a reusable API endpoint for dashboards, reports, or integration into other systems.
+                  Save queries as API endpoints to plug into dashboards, reports, apps and workflows. 
                 </p>
                 <div className="text-sm text-slate-400">
                   <br />
@@ -222,7 +219,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Works with Your Existing Stack</h2>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              Connect seamlessly to your current industrial systems. No rip-and-replace required.
+              Connect seamlessly to your current industrial systems.
             </p>
           </div>
 
@@ -349,7 +346,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Data In &gt; Insight Out</h2>
             <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-              Open Industrial is the unified intelligence hub for your industrial ecosystem.
+              The unified intelligence hub for your industrial ecosystem.
             </p>
           </div>
 
@@ -630,7 +627,7 @@ export default function HomePage() {
                 <Workflow className="w-16 h-16 text-white" />
               </div>
               <p className="text-xl text-slate-300 font-medium">
-                Start with questions. Grow into orchestration. All inside your own stack.
+                Start with insight. Grow into orchestration. All inside your own stack.
               </p>
             </div>
           </div>
@@ -640,9 +637,9 @@ export default function HomePage() {
       {/* CTA */}
       <section className="py-20 px-4 bg-gradient-to-r from-blue-600 to-purple-700">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">Ready to Transform Your Industrial Data?</h2>
+          <h2 className="text-4xl font-bold text-white mb-6">Ready to Unlock Instant Telemetry Insights?</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Connect, query and act on instant insights from the plant floor.
+            Connect, query and act on insights from the plant floor.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3">
